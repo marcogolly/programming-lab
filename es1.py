@@ -1,9 +1,14 @@
-sum (v):
+def sum (v):
     s=0
     for i in v:
-        s + = i
-    return sum
+        s =s +  i
+    
+    return s
 
-v = [1,2,3,4,5]
+print("inserisci dim: ")
+dim = int (input())
+v =[]
+for i in range(dim):
+    v.append(int (input()))
 
 print(sum(v))
