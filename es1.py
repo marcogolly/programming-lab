@@ -6,9 +6,9 @@ def sum (v):
     return s
 
 print("inserisci dim: ")
-dim = int (input())
+dim = int (input("inserisci dim: "))
 v =[]
 for i in range(dim):
-    v.append(int (input()))
+    v.append(int (input("inserisci numero: ")))
 
 print(sum(v))
